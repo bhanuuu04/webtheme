@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theme Library Dashboard — Styled with Theme #014 (Arc)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+            mono: ['"JetBrains Mono"', '"Fira Code"', 'monospace'],
+          },
+          letterSpacing: {
+            display: '-0.035em',
+            body: '-0.01em',
+          },
+          colors: {
+            theme: {
+              bg: '#ffffff',
+              surface: '#f9fafb',
+              card: '#ffffff',
+              cardHover: '#ffffff',
+              border: '#e5e7eb',
+              borderSubtle: '#f3f4f6',
+              accent: '#0070f3',
+              accentHover: '#0060df',
+              textPrimary: '#111827',
+              textSecondary: '#4b5563',
+              textMuted: '#6b7280',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Standalone Theme Data for instant local loading -->
+  <script src="themes_data.js"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-[#ffffff] text-[#111827] min-h-screen font-sans antialiased selection:bg-[#0070f3] selection:text-white flex flex-col tracking-body">
+
+  <!-- THEME #014 STICKY FROSTED HEADER (backdrop-blur-md bg-white/80 border-b border-[#e5e7eb]) -->
+  <header class="sticky top-0 z-40 backdrop-blur-md bg-white/80 border-b border-[#e5e7eb] px-6 py-3.5 shadow-sm shadow-black/[0.02]">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-lg bg-[#0070f3]/10 border border-[#0070f3]/25 flex items-center justify-center text-[#0070f3] shadow-sm shadow-[#0070f3]/10">
+          <i data-lucide="layers" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <h1 class="text-base font-bold tracking-display text-[#111827]">Theme Library Dashboard</h1>
+            <span class="px-2 py-0.5 text-[11px] font-semibold rounded-md bg-[#0070f3]/10 text-[#0070f3] border border-[#0070f3]/25 font-mono">Theme #014 Arc</span>
+            <span class="text-[11px] text-[#6b7280] font-mono">500 References</span>
+          </div>
+          <p class="text-xs text-[#6b7280]">Clean Minimal Enterprise Product • Strict Single-Source Theme Isolation</p>
+        </div>
+      </div>
+
+      <!-- Quick Actions & Search Bar with ⌘K Badge -->
+      <div class="flex items-center gap-2.5">
+        <div class="relative flex-1 md:w-80">
+          <i data-lucide="search" class="w-4 h-4 text-[#6b7280] absolute left-3 top-1/2 -translate-y-1/2"></i>
+          <input id="searchInput" type="text" placeholder="Search themes, DNA, categories..." 
+            class="w-full pl-9 pr-12 py-2 bg-[#f9fafb] border border-[#e5e7eb] rounded-lg text-sm placeholder:text-[#9ca3af] text-[#111827] focus:outline-none focus:bg-white focus:border-[#0070f3] focus:ring-1 focus:ring-[#0070f3] transition-all">
+          <span class="absolute right-2.5 top-1/2 -translate-y-1/2 text-[10px] font-mono px-1.5 py-0.5 rounded bg-[#e5e7eb] text-[#4b5563]">⌘K</span>
+        </div>
+
+        <button id="compareBtn" class="flex items-center gap-1.5 px-3 py-2 rounded-lg bg-[#ffffff] border border-[#e5e7eb] text-xs font-medium text-[#4b5563] hover:text-[#111827] hover:border-[#0070f3]/40 shadow-sm transition-all">
+          <i data-lucide="columns" class="w-4 h-4 text-[#0070f3]"></i>
+          <span>Compare (<span id="compareCount">0</span>)</span>
+        </button>
+
+        <button id="exportJsonBtn" class="flex items-center gap-1.5 px-3 py-2 rounded-lg bg-[#ffffff] border border-[#e5e7eb] text-xs font-medium text-[#4b5563] hover:text-[#111827] hover:border-[#0070f3]/40 shadow-sm transition-all" title="Export Filtered JSON">
+          <i data-lucide="download" class="w-4 h-4 text-[#6b7280]"></i>
+          <span class="hidden sm:inline">Export</span>
+        </button>
+
+        <div class="flex items-center bg-[#f9fafb] border border-[#e5e7eb] rounded-lg p-0.5">
+          <button id="gridViewBtn" class="p-1.5 rounded-md bg-[#0070f3] text-white shadow-sm transition-all" title="Grid View">
+            <i data-lucide="grid" class="w-4 h-4"></i>
+          </button>
+          <button id="listViewBtn" class="p-1.5 rounded-md text-[#6b7280] hover:text-[#111827] transition-all" title="List View">
+            <i data-lucide="list" class="w-4 h-4"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN WRAPPER -->
+  <div class="relative max-w-7xl mx-auto px-6 py-6 w-full flex-1 flex flex-col md:flex-row gap-6">
+
+    <!-- SIDEBAR: FILTERS -->
+    <aside class="w-full md:w-64 shrink-0 space-y-4">
+      <!-- Quick Stats Card -->
+      <div class="p-4 rounded-xl bg-[#f9fafb] border border-[#e5e7eb] shadow-sm">
+        <div class="flex items-center justify-between mb-3">
+          <span class="text-xs font-semibold text-[#6b7280] uppercase tracking-wider font-mono">Registry Stats</span>
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+        </div>
+        <div class="grid grid-cols-2 gap-2 text-center">
+          <div class="p-2.5 rounded-lg bg-[#ffffff] border border-[#e5e7eb]">
+            <div id="visibleCount" class="text-lg font-bold text-[#111827] font-mono">0</div>
+            <div class="text-[10px] text-[#6b7280]">Showing</div>
+          </div>
+          <div class="p-2.5 rounded-lg bg-[#ffffff] border border-[#e5e7eb]">
+            <div id="totalCount" class="text-lg font-bold text-[#0070f3] font-mono">500</div>
+            <div class="text-[10px] text-[#6b7280]">Total Themes</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categories Filter -->
+      <div class="p-4 rounded-xl bg-[#f9fafb] border border-[#e5e7eb] shadow-sm space-y-3">
+        <div class="flex items-center justify-between">
+          <label class="text-xs font-semibold text-[#111827] flex items-center gap-1.5">
+            <i data-lucide="folder" class="w-3.5 h-3.5 text-[#0070f3]"></i> Categories
+          </label>
+        </div>
+        <div id="categoryFilters" class="flex flex-col gap-1 max-h-56 overflow-y-auto custom-scrollbar pr-1">
+          <!-- Categories checkboxes generated dynamically -->
+        </div>
+      </div>
+
+      <!-- Color Tone Filter -->
+      <div class="p-4 rounded-xl bg-[#f9fafb] border border-[#e5e7eb] shadow-sm space-y-3">
+        <label class="text-xs font-semibold text-[#111827] flex items-center gap-1.5">
+          <i data-lucide="palette" class="w-3.5 h-3.5 text-[#0070f3]"></i> Visual Mode / Tone
+        </label>
+        <div class="grid grid-cols-3 gap-1.5">
+          <button class="tone-btn active py-1.5 px-2 rounded-lg text-xs font-medium text-center" data-tone="all">All</button>
+          <button class="tone-btn py-1.5 px-2 rounded-lg text-xs font-medium text-center" data-tone="dark">Dark</button>
+          <button class="tone-btn py-1.5 px-2 rounded-lg text-xs font-medium text-center" data-tone="light">Light</button>
+        </div>
+      </div>
+
+      <!-- Tags Filter -->
+      <div class="p-4 rounded-xl bg-[#f9fafb] border border-[#e5e7eb] shadow-sm space-y-3">
+        <div class="flex items-center justify-between">
+          <label class="text-xs font-semibold text-[#111827] flex items-center gap-1.5">
+            <i data-lucide="tag" class="w-3.5 h-3.5 text-[#0070f3]"></i> Popular Tags
+          </label>
+        </div>
+        <div id="tagFilters" class="flex flex-wrap gap-1.5 max-h-48 overflow-y-auto custom-scrollbar pr-1">
+          <!-- Tags pills generated dynamically -->
+        </div>
+      </div>
+
+      <!-- Reset Filters Button -->
+      <button id="resetFiltersBtn" class="w-full py-2.5 px-4 rounded-lg bg-[#ffffff] border border-[#e5e7eb] text-xs font-semibold text-[#6b7280] hover:text-[#111827] hover:border-[#d1d5db] transition-colors flex items-center justify-center gap-2 shadow-sm">
+        <i data-lucide="rotate-ccw" class="w-3.5 h-3.5"></i>
+        <span>Reset All Filters</span>
+      </button>
+    </aside>
+
+    <!-- MAIN GALLERY CONTAINER -->
+    <main class="flex-1 flex flex-col">
+      <!-- Active Filters Bar & Controls -->
+      <div class="mb-4 flex flex-wrap items-center justify-between gap-3 bg-[#f9fafb] p-3 rounded-xl border border-[#e5e7eb] text-xs">
+        <div class="flex items-center gap-2 flex-wrap">
+          <span class="text-[#6b7280]">Active Filters:</span>
+          <div id="filterNotice" class="flex items-center gap-1.5 flex-wrap">
+            <span class="px-2 py-0.5 rounded-md bg-[#ffffff] border border-[#e5e7eb] text-[11px] text-[#6b7280]">None (Showing All)</span>
+          </div>
+        </div>
+        <div class="flex items-center gap-2 text-[#6b7280]">
+          <span>Sort by:</span>
+          <select id="sortSelect" class="bg-[#ffffff] border border-[#e5e7eb] text-[#111827] rounded-md px-2 py-1 text-xs focus:outline-none focus:border-[#0070f3]">
+            <option value="id-asc">Theme # (1 → 500)</option>
+            <option value="id-desc">Theme # (500 → 1)</option>
+            <option value="name-asc">Name (A → Z)</option>
+            <option value="name-desc">Name (Z → A)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Theme Cards Grid -->
+      <div id="themeContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <!-- Theme Cards injected dynamically -->
+      </div>
+
+      <!-- Load More / Infinite Scroll Target -->
+      <div id="loadMoreContainer" class="py-8 text-center hidden">
+        <button id="loadMoreBtn" class="px-5 py-2.5 rounded-lg bg-[#ffffff] border border-[#e5e7eb] text-xs font-semibold text-[#111827] hover:border-[#0070f3] hover:text-[#0070f3] shadow-sm transition-all">
+          Load More Themes...
+        </button>
+      </div>
+    </main>
+  </div>
+
+  <!-- THEME DETAIL MODAL / DRAWER -->
+  <div id="themeModal" class="fixed inset-0 z-50 bg-black/40 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-200 flex items-center justify-end">
+    <div id="modalContent" class="w-full max-w-2xl h-full bg-[#ffffff] border-l border-[#e5e7eb] shadow-2xl overflow-y-auto custom-scrollbar p-6 transform translate-x-full transition-transform duration-200 text-[#111827]">
+      <!-- Modal detail content injected dynamically -->
+    </div>
+  </div>
+
+  <!-- THEME COMPARISON MODAL -->
+  <div id="compareModal" class="fixed inset-0 z-50 bg-black/40 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-200 flex items-center justify-center p-4">
+    <div class="w-full max-w-5xl max-h-[90vh] bg-[#ffffff] border border-[#e5e7eb] rounded-2xl shadow-2xl overflow-hidden flex flex-col text-[#111827]">
+      <div class="px-6 py-4 border-b border-[#e5e7eb] flex items-center justify-between bg-[#f9fafb]">
+        <div class="flex items-center gap-2">
+          <i data-lucide="columns" class="w-5 h-5 text-[#0070f3]"></i>
+          <h2 class="text-base font-bold text-[#111827] tracking-display">Theme Comparison Engine</h2>
+        </div>
+        <button id="closeCompareBtn" onclick="closeCompareModal()" class="p-1.5 rounded-lg text-[#6b7280] hover:text-[#111827] hover:bg-[#e5e7eb] transition-colors">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+      <div id="compareGrid" class="p-6 overflow-y-auto custom-scrollbar grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Comparison cards injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none flex items-center gap-2.5 px-4 py-3 rounded-xl bg-[#111827] text-white border border-[#374151] shadow-2xl text-xs font-medium">
+    <i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i>
+    <span id="toastMessage">Copied to clipboard!</span>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

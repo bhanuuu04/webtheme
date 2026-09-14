@@ -1,0 +1,501 @@
+Theme No.,Category,Website,Full Link
+#001,SaaS / Product,Linear,https://linear.app/
+#002,SaaS / Product,Vercel,https://vercel.com/
+#003,SaaS / Product,Stripe,https://stripe.com/
+#004,SaaS / Product,Framer,https://www.framer.com/
+#005,SaaS / Product,Ramp,https://ramp.com/
+#006,SaaS / Product,Attio,https://attio.com/
+#007,SaaS / Product,Raycast,https://www.raycast.com/
+#008,SaaS / Product,Notion,https://www.notion.com/
+#009,SaaS / Product,Resend,https://resend.com/
+#010,SaaS / Product,Anthropic,https://www.anthropic.com/
+#011,SaaS / Product,Apple,https://www.apple.com/
+#012,SaaS / Product,Airbnb,https://www.airbnb.com/
+#013,SaaS / Product,Superhuman,https://superhuman.com/
+#014,SaaS / Product,Arc,https://arc.net/
+#015,SaaS / Product,Dropbox,https://www.dropbox.com/
+#016,SaaS / Product,Slack,https://slack.com/
+#017,SaaS / Product,Asana,https://asana.com/
+#018,SaaS / Product,Monday,https://monday.com/
+#019,SaaS / Product,ClickUp,https://clickup.com/
+#020,SaaS / Product,Loom,https://www.loom.com/
+#021,SaaS / Product,Pitch,https://pitch.com/
+#022,SaaS / Product,Miro,https://miro.com/
+#023,SaaS / Product,Intercom,https://www.intercom.com/
+#024,SaaS / Product,HubSpot,https://www.hubspot.com/
+#025,SaaS / Product,Salesforce,https://www.salesforce.com/
+#026,SaaS / Product,Webflow,https://webflow.com/
+#027,SaaS / Product,Readymag,https://readymag.com/
+#028,SaaS / Product,Tana,https://tana.inc/
+#029,SaaS / Product,Heptabase,https://heptabase.com/
+#030,SaaS / Product,Craft,https://www.craft.do/
+#031,SaaS / Product,Things,https://culturedcode.com/things/
+#032,SaaS / Product,Height,https://height.app/
+#033,SaaS / Product,Sunsama,https://www.sunsama.com/
+#034,SaaS / Product,Cron,https://cron.com/
+#035,SaaS / Product,Superlist,https://www.superlist.com/
+#036,SaaS / Product,Basecamp,https://basecamp.com/
+#037,SaaS / Product,Todoist,https://todoist.com/
+#038,SaaS / Product,Anytype,https://anytype.io/
+#039,SaaS / Product,Coda,https://coda.io/
+#040,SaaS / Product,Doppler,https://www.doppler.com/
+#041,SaaS / Product,Front,https://front.com/
+#042,SaaS / Product,Figma,https://www.figma.com/
+#043,SaaS / Product,Canva,https://www.canva.com/
+#044,SaaS / Product,Lemon Squeezy,https://www.lemonsqueezy.com/
+#045,SaaS / Product,Gumroad,https://gumroad.com/
+#046,SaaS / Product,Kajabi,https://kajabi.com/
+#047,SaaS / Product,Podia,https://www.podia.com/
+#048,SaaS / Product,Substack,https://substack.com/
+#049,SaaS / Product,Beehiiv,https://www.beehiiv.com/
+#050,SaaS / Product,Ghost,https://ghost.org/
+#051,SaaS / Product,ConvertKit,https://convertkit.com/
+#052,SaaS / Product,Circle,https://circle.so/
+#053,SaaS / Product,Maven,https://maven.com/
+#054,SaaS / Product,Frase,https://frase.io/
+#055,SaaS / Product,Plausible,https://plausible.io/
+#056,SaaS / Product,Fathom Analytics,https://usefathom.com/
+#057,SaaS / Product,PostHog,https://posthog.com/
+#058,SaaS / Product,Sentry,https://sentry.io/
+#059,SaaS / Product,Datadog,https://www.datadoghq.com/
+#060,SaaS / Product,Grafana,https://grafana.com/
+#061,SaaS / Product,Elastic,https://www.elastic.co/
+#062,SaaS / Product,HashiCorp,https://www.hashicorp.com/
+#063,SaaS / Product,Docker,https://www.docker.com/
+#064,SaaS / Product,Kubernetes,https://kubernetes.io/
+#065,SaaS / Product,GitHub,https://github.com/
+#066,SaaS / Product,GitLab,https://about.gitlab.com/
+#067,SaaS / Product,Atlassian,https://www.atlassian.com/
+#068,SaaS / Product,Notion Calendar,https://www.notion.com/product/calendar/
+#069,SaaS / Product,Airtable,https://www.airtable.com/
+#070,AI,OpenAI,https://openai.com/
+#071,AI,Perplexity,https://www.perplexity.ai/
+#072,AI,Claude,https://claude.ai/
+#073,AI,ElevenLabs,https://elevenlabs.io/
+#074,AI,Cursor,https://cursor.com/
+#075,AI,Replit,https://replit.com/
+#076,AI,Runway,https://runwayml.com/
+#077,AI,Midjourney,https://www.midjourney.com/
+#078,AI,Ideogram,https://ideogram.ai/
+#079,AI,Krea,https://www.krea.ai/
+#080,AI,Pika,https://pika.art/
+#081,AI,Luma,https://lumalabs.ai/
+#082,AI,Suno,https://suno.com/
+#083,AI,Mistral AI,https://mistral.ai/
+#084,AI,Cohere,https://cohere.com/
+#085,AI,Hugging Face,https://huggingface.co/
+#086,AI,Together AI,https://www.together.ai/
+#087,AI,Groq,https://groq.com/
+#088,AI,DeepMind,https://deepmind.google/
+#089,AI,Google AI,https://ai.google/
+#090,AI,Microsoft AI,https://www.microsoft.com/en-us/ai
+#091,AI,NVIDIA AI,https://www.nvidia.com/en-us/ai/
+#092,AI,Hume AI,https://www.hume.ai/
+#093,AI,Vercel AI,https://vercel.com/ai
+#094,AI,Replicate,https://replicate.com/
+#095,AI,Together,https://www.together.ai/
+#096,AI,Modal,https://modal.com/
+#097,AI,LangChain,https://www.langchain.com/
+#098,AI,Lindy,https://www.lindy.ai/
+#099,AI,Granola,https://www.granola.ai/
+#100,AI,Wispr Flow,https://wisprflow.ai/
+#101,AI,Harvey,https://www.harvey.ai/
+#102,AI,Cognition,https://www.cognition.ai/
+#103,AI,Lovable,https://lovable.dev/
+#104,AI,Bolt,https://bolt.new/
+#105,AI,v0,https://v0.dev/
+#106,AI,Magic Patterns,https://www.magicpatterns.com/
+#107,AI,Galileo AI,https://www.usegalileo.ai/
+#108,AI,Diagram,https://diagram.com/
+#109,AI,Uizard,https://uizard.io/
+#110,AI,Gamma,https://gamma.app/
+#111,AI,Beautiful.ai,https://www.beautiful.ai/
+#112,AI,Tome,https://tome.app/
+#113,AI,Durable,https://durable.co/
+#114,AI,Jasper,https://www.jasper.ai/
+#115,Developer / Infrastructure,Supabase,https://supabase.com/
+#116,Developer / Infrastructure,Neon,https://neon.tech/
+#117,Developer / Infrastructure,Railway,https://railway.com/
+#118,Developer / Infrastructure,Render,https://render.com/
+#119,Developer / Infrastructure,Fly.io,https://fly.io/
+#120,Developer / Infrastructure,Cloudflare,https://www.cloudflare.com/
+#121,Developer / Infrastructure,AWS,https://aws.amazon.com/
+#122,Developer / Infrastructure,Google Cloud,https://cloud.google.com/
+#123,Developer / Infrastructure,Microsoft Azure,https://azure.microsoft.com/
+#124,Developer / Infrastructure,DigitalOcean,https://www.digitalocean.com/
+#125,Developer / Infrastructure,PlanetScale,https://planetscale.com/
+#126,Developer / Infrastructure,Convex,https://www.convex.dev/
+#127,Developer / Infrastructure,Clerk,https://clerk.com/
+#128,Developer / Infrastructure,Auth0,https://auth0.com/
+#129,Developer / Infrastructure,WorkOS,https://workos.com/
+#130,Developer / Infrastructure,Stytch,https://stytch.com/
+#131,Developer / Infrastructure,Octopus Deploy,https://octopus.com/
+#132,Developer / Infrastructure,Pulumi,https://www.pulumi.com/
+#133,Developer / Infrastructure,Vite,https://vite.dev/
+#134,Developer / Infrastructure,Astro,https://astro.build/
+#135,Developer / Infrastructure,Next.js,https://nextjs.org/
+#136,Developer / Infrastructure,Nuxt,https://nuxt.com/
+#137,Developer / Infrastructure,Svelte,https://svelte.dev/
+#138,Developer / Infrastructure,SolidJS,https://www.solidjs.com/
+#139,Developer / Infrastructure,Tailwind CSS,https://tailwindcss.com/
+#140,Developer / Infrastructure,Bootstrap,https://getbootstrap.com/
+#141,Developer / Infrastructure,Radix UI,https://www.radix-ui.com/
+#142,Developer / Infrastructure,shadcn/ui,https://ui.shadcn.com/
+#143,Developer / Infrastructure,Chakra UI,https://chakra-ui.com/
+#144,Developer / Infrastructure,Mantine,https://mantine.dev/
+#145,Developer / Infrastructure,Three.js,https://threejs.org/
+#146,Developer / Infrastructure,GSAP,https://gsap.com/
+#147,Developer / Infrastructure,Lenis,https://lenis.darkroom.engineering/
+#148,Developer / Infrastructure,Motion,https://motion.dev/
+#149,Developer / Infrastructure,Lottie,https://lottiefiles.com/
+#150,Developer / Infrastructure,Spline,https://spline.design/
+#151,Developer / Infrastructure,Rive,https://rive.app/
+#152,Developer / Infrastructure,Storyblok,https://www.storyblok.com/
+#153,Developer / Infrastructure,Sanity,https://www.sanity.io/
+#154,Developer / Infrastructure,Contentful,https://www.contentful.com/
+#155,Developer / Infrastructure,Algolia,https://www.algolia.com/
+#156,Developer / Infrastructure,Meilisearch,https://www.meilisearch.com/
+#157,Developer / Infrastructure,Turso,https://turso.tech/
+#158,Developer / Infrastructure,Upstash,https://upstash.com/
+#159,Developer / Infrastructure,Trigger.dev,https://trigger.dev/
+#160,Developer / Infrastructure,Inngest,https://www.inngest.com/
+#161,Developer / Infrastructure,Resend Docs,https://resend.com/docs
+#162,Developer / Infrastructure,Supabase Docs,https://supabase.com/docs
+#163,Developer / Infrastructure,Vercel Changelog,https://vercel.com/changelog
+#164,Developer / Infrastructure,GitHub Universe,https://githubuniverse.com/
+#165,Fintech / Finance,Brex,https://www.brex.com/
+#166,Fintech / Finance,Mercury,https://mercury.com/
+#167,Fintech / Finance,Wise,https://wise.com/
+#168,Fintech / Finance,Revolut,https://www.revolut.com/
+#169,Fintech / Finance,Coinbase,https://www.coinbase.com/
+#170,Fintech / Finance,Robinhood,https://robinhood.com/
+#171,Fintech / Finance,Plaid,https://plaid.com/
+#172,Fintech / Finance,Chime,https://www.chime.com/
+#173,Fintech / Finance,Monzo,https://monzo.com/
+#174,Fintech / Finance,N26,https://n26.com/
+#175,Fintech / Finance,Klarna,https://www.klarna.com/
+#176,Fintech / Finance,Block,https://block.xyz/
+#177,Fintech / Finance,Cash App,https://cash.app/
+#178,Fintech / Finance,SoFi,https://www.sofi.com/
+#179,Fintech / Finance,Chase,https://www.chase.com/
+#180,Fintech / Finance,American Express,https://www.americanexpress.com/
+#181,Fintech / Finance,Mastercard,https://www.mastercard.com/
+#182,Fintech / Finance,Visa,https://www.visa.com/
+#183,Fintech / Finance,PayPal,https://www.paypal.com/
+#184,Fintech / Finance,Adyen,https://www.adyen.com/
+#185,Fintech / Finance,Checkout.com,https://www.checkout.com/
+#186,Fintech / Finance,Marqeta,https://www.marqeta.com/
+#187,Fintech / Finance,Airwallex,https://www.airwallex.com/
+#188,Fintech / Finance,Ramp Corporate Cards,https://ramp.com/corporate-cards
+#189,Fintech / Finance,Pipe,https://pipe.com/
+#190,Fintech / Finance,Brex Empower,https://www.brex.com/product/expense-management
+#191,Fintech / Finance,Rippling,https://www.rippling.com/
+#192,Fintech / Finance,Gusto,https://gusto.com/
+#193,Fintech / Finance,Carta,https://carta.com/
+#194,Fintech / Finance,Deel,https://www.deel.com/
+#195,Fintech / Finance,Remote,https://remote.com/
+#196,Fintech / Finance,Mercury Banking,https://mercury.com/banking
+#197,Fintech / Finance,Navan,https://navan.com/
+#198,Fintech / Finance,Expensify,https://www.expensify.com/
+#199,Fintech / Finance,Ramp Travel,https://ramp.com/travel
+#200,Fintech / Finance,Checkout,https://www.checkout.com/
+#201,Fintech / Finance,Circle,https://www.circle.com/
+#202,Fintech / Finance,Chainalysis,https://www.chainalysis.com/
+#203,Fintech / Finance,Ledger,https://www.ledger.com/
+#204,Fintech / Finance,Kraken,https://www.kraken.com/
+#205,Fintech / Finance,Uniswap,https://app.uniswap.org/
+#206,Fintech / Finance,Aave,https://aave.com/
+#207,Fintech / Finance,Ethereum,https://ethereum.org/
+#208,Fintech / Finance,Polygon,https://polygon.technology/
+#209,Fintech / Finance,Solana,https://solana.com/
+#210,Fintech / Finance,Worldpay,https://www.worldpay.com/
+#211,Fintech / Finance,Stripe Treasury,https://stripe.com/treasury
+#212,Fintech / Finance,Stripe Atlas,https://stripe.com/atlas
+#213,Fintech / Finance,Toast,https://pos.toasttab.com/
+#214,Fintech / Finance,Affirm,https://www.affirm.com/
+#215,Fintech / Finance,LendingClub,https://www.lendingclub.com/
+#216,3D / WebGL / Immersive,Bruno Simon,https://bruno-simon.com/
+#217,3D / WebGL / Immersive,Active Theory,https://activetheory.net/
+#218,3D / WebGL / Immersive,Lusion,https://lusion.co/
+#219,3D / WebGL / Immersive,Unseen Studio,https://unseen.co/
+#220,3D / WebGL / Immersive,Resn,https://resn.co.nz/
+#221,3D / WebGL / Immersive,Locomotive,https://locomotive.ca/
+#222,3D / WebGL / Immersive,Obys Agency,https://obys.agency/
+#223,3D / WebGL / Immersive,Codrops,https://tympanus.net/codrops/
+#224,3D / WebGL / Immersive,Mesh3D,https://mesh3d.gallery/
+#225,3D / WebGL / Immersive,WebGL Awards,https://www.webdesignawards.io/technology/webgl
+#226,3D / WebGL / Immersive,Onmi,https://onmi.com/
+#227,3D / WebGL / Immersive,Awwwards WebGL,https://www.awwwards.com/websites/webgl/
+#228,3D / WebGL / Immersive,FWA,https://thefwa.com/
+#229,3D / WebGL / Immersive,Cuberto,https://cuberto.com/
+#230,3D / WebGL / Immersive,Locomotive Digital Experience,https://locomotive.ca/
+#231,3D / WebGL / Immersive,Immersive Garden,https://immersive-g.com/
+#232,3D / WebGL / Immersive,Hello Monday,https://www.hellomonday.com/
+#233,3D / WebGL / Immersive,Makemepulse,https://www.makemepulse.com/
+#234,3D / WebGL / Immersive,Active Theory Labs,https://activetheory.net/
+#235,3D / WebGL / Immersive,Resn Studio,https://resn.co.nz/
+#236,3D / WebGL / Immersive,Bureaux,https://bureaux.co/
+#237,3D / WebGL / Immersive,Bonjour Melodie,https://bonjourmelodie.com/
+#238,3D / WebGL / Immersive,Uncommon,https://uncommonworld.com/
+#239,3D / WebGL / Immersive,Hato,https://www.hato.co/
+#240,3D / WebGL / Immersive,Field.io,https://field.io/
+#241,3D / WebGL / Immersive,Dada Projects,https://www.dadaprojects.com/
+#242,3D / WebGL / Immersive,Immersive Web Weekly,https://immersivewebweekly.com/
+#243,3D / WebGL / Immersive,Google Santa Tracker,https://santatracker.google.com/
+#244,3D / WebGL / Immersive,Chrome Experiments,https://experiments.withgoogle.com/
+#245,3D / WebGL / Immersive,Experiments with Google,https://experiments.withgoogle.com/
+#246,3D / WebGL / Immersive,WebGL Samples,https://webglsamples.org/
+#247,3D / WebGL / Immersive,ShaderToy,https://www.shadertoy.com/
+#248,3D / WebGL / Immersive,Bruno's Experiments,https://bruno-simon.com/
+#249,3D / WebGL / Immersive,PlayCanvas,https://playcanvas.com/
+#250,3D / WebGL / Immersive,Babylon.js,https://www.babylonjs.com/
+#251,3D / WebGL / Immersive,Theatre.js,https://www.theatrejs.com/
+#252,3D / WebGL / Immersive,R3F,https://r3f.docs.pmnd.rs/
+#253,3D / WebGL / Immersive,Drei,https://drei.docs.pmnd.rs/
+#254,3D / WebGL / Immersive,React Three Fiber,https://docs.pmnd.rs/react-three-fiber/
+#255,Motion / Interaction,LottieFiles,https://lottiefiles.com/
+#256,Motion / Interaction,Cubic Bezier,https://cubic-bezier.com/
+#257,Motion / Interaction,CodePen,https://codepen.io/
+#258,Motion / Interaction,CSS-Tricks,https://css-tricks.com/
+#259,Motion / Interaction,Codrops Demos,https://tympanus.net/codrops/
+#260,Motion / Interaction,Hover.css,https://ianlunn.github.io/Hover/
+#261,Motion / Interaction,Animista,https://animista.net/
+#262,Motion / Interaction,UIverse,https://uiverse.io/
+#263,Motion / Interaction,Collect UI,https://collectui.com/
+#264,Motion / Interaction,Godly,https://godly.website/
+#265,Motion / Interaction,Minimal Gallery,https://minimal.gallery/
+#266,Motion / Interaction,Lapa Ninja,https://www.lapa.ninja/
+#267,Motion / Interaction,Land-book,https://land-book.com/
+#268,Motion / Interaction,SiteInspire,https://www.siteinspire.com/
+#269,Motion / Interaction,CSS Winner,https://www.csswinner.com/
+#270,Motion / Interaction,CSS Design Awards,https://www.cssdesignawards.com/
+#271,Motion / Interaction,Awwwards,https://www.awwwards.com/
+#272,Motion / Interaction,Httpster,https://httpster.net/
+#273,Motion / Interaction,One Page Love,https://onepagelove.com/
+#274,Motion / Interaction,Design Shack,https://designshack.net/
+#275,Motion / Interaction,Web Design Inspiration,https://www.webdesign-inspiration.com/
+#276,Motion / Interaction,Best Website Gallery,https://bestwebsite.gallery/
+#277,Motion / Interaction,The FWA,https://thefwa.com/
+#278,Motion / Interaction,Web Design Awards,https://www.webdesignawards.io/
+#279,Motion / Interaction,Muzli,https://muz.li/
+#280,Motion / Interaction,SiteSee,https://sitesee.co/
+#281,Motion / Interaction,Refero,https://refero.design/
+#282,Motion / Interaction,SaaSFrame,https://www.saasframe.io/
+#283,Motion / Interaction,Page Flows,https://pageflows.com/
+#284,Motion / Interaction,Mobbin,https://mobbin.com/
+#285,Motion / Interaction,Pttrns,https://pttrns.com/
+#286,Motion / Interaction,UI Jar,https://uijar.com/
+#287,Motion / Interaction,Screenlane,https://screenlane.com/
+#288,Motion / Interaction,UI Garage,https://uigarage.net/
+#289,Motion / Interaction,Dribbble,https://dribbble.com/
+#290,Motion / Interaction,Behance,https://www.behance.net/
+#291,Motion / Interaction,Awwwards Sites of the Day,https://www.awwwards.com/websites/sites_of_the_day/
+#292,Creative Agencies / Studios,Basic/Dept,https://basicagency.com/
+#293,Creative Agencies / Studios,Instrument,https://www.instrument.com/
+#294,Creative Agencies / Studios,Fantasy,https://fantasy.co/
+#295,Creative Agencies / Studios,Huge,https://www.hugeinc.com/
+#296,Creative Agencies / Studios,Work & Co,https://work.co/
+#297,Creative Agencies / Studios,Ueno,https://ueno.co/
+#298,Creative Agencies / Studios,AREA 17,https://area17.com/
+#299,Creative Agencies / Studios,Jam3,https://www.jam3.com/
+#300,Creative Agencies / Studios,Media.Monks,https://www.mediamonks.com/
+#301,Creative Agencies / Studios,Dentsu Creative,https://www.dentsucreative.com/
+#302,Creative Agencies / Studios,AKQA,https://www.akqa.com/
+#303,Creative Agencies / Studios,R/GA,https://www.rga.com/
+#304,Creative Agencies / Studios,Wieden+Kennedy,https://www.wk.com/
+#305,Creative Agencies / Studios,Mother,https://motherlondon.com/
+#306,Creative Agencies / Studios,Droga5,https://droga5.com/
+#307,Creative Agencies / Studios,BBDO,https://bbdo.com/
+#308,Creative Agencies / Studios,72andSunny,https://www.72andsunny.com/
+#309,Creative Agencies / Studios,Anomaly,https://www.anomaly.com/
+#310,Creative Agencies / Studios,Code and Theory,https://www.codeandtheory.com/
+#311,Creative Agencies / Studios,Studio Freight,https://www.studiofreight.com/
+#312,Creative Agencies / Studios,Stink Studios,https://stink.co/
+#313,Creative Agencies / Studios,AKQA Studios,https://www.akqa.com/
+#314,Creative Agencies / Studios,Firstborn,https://www.firstborn.com/
+#315,Creative Agencies / Studios,Fantasy Interactive,https://www.f-i.com/
+#316,Creative Agencies / Studios,MetaDesign,https://metadesign.com/
+#317,Creative Agencies / Studios,Focus Lab,https://focuslabllc.com/
+#318,Creative Agencies / Studios,Ramotion,https://www.ramotion.com/
+#319,Creative Agencies / Studios,Clay,https://clay.global/
+#320,Creative Agencies / Studios,Ramotion Labs,https://www.ramotion.com/
+#321,Creative Agencies / Studios,Locomotive Studio,https://locomotive.ca/
+#322,Creative Agencies / Studios,B-Reel,https://www.b-reel.com/
+#323,Creative Agencies / Studios,Jam3 Labs,https://www.jam3.com/
+#324,Creative Agencies / Studios,Digital Kitchen,https://www.d-kitchen.com/
+#325,Creative Agencies / Studios,North Kingdom,https://northkingdom.com/
+#326,Creative Agencies / Studios,Instrument Studio,https://www.instrument.com/
+#327,Creative Agencies / Studios,Ueno Studio,https://ueno.co/
+#328,Creative Agencies / Studios,Stinkdigital,https://stink.co/
+#329,Creative Agencies / Studios,Noomo,https://www.noomo.agency/
+#330,Creative Agencies / Studios,Dumbar,https://studiobeeldwerk.nl/
+#331,Creative Agencies / Studios,Collins,https://www.wearecollins.com/
+#332,Creative Agencies / Studios,Koto,https://koto.studio/
+#333,Creative Agencies / Studios,Porto Rocha,https://www.portorocha.com/
+#334,Creative Agencies / Studios,Mucho,https://wearemucho.com/
+#335,Luxury / Fashion,Nike,https://www.nike.com/
+#336,Luxury / Fashion,Adidas,https://www.adidas.com/
+#337,Luxury / Fashion,Puma,https://us.puma.com/
+#338,Luxury / Fashion,Gucci,https://www.gucci.com/
+#339,Luxury / Fashion,Prada,https://www.prada.com/
+#340,Luxury / Fashion,Louis Vuitton,https://www.louisvuitton.com/
+#341,Luxury / Fashion,Dior,https://www.dior.com/
+#342,Luxury / Fashion,Balenciaga,https://www.balenciaga.com/
+#343,Luxury / Fashion,Moncler,https://www.moncler.com/
+#344,Luxury / Fashion,Burberry,https://www.burberry.com/
+#345,Luxury / Fashion,Loewe,https://www.loewe.com/
+#346,Luxury / Fashion,Bottega Veneta,https://www.bottegaveneta.com/
+#347,Luxury / Fashion,Saint Laurent,https://www.ysl.com/
+#348,Luxury / Fashion,Miu Miu,https://www.miumiu.com/
+#349,Luxury / Fashion,Fendi,https://www.fendi.com/
+#350,Luxury / Fashion,Versace,https://www.versace.com/
+#351,Luxury / Fashion,Valentino,https://www.valentino.com/
+#352,Luxury / Fashion,Armani,https://www.armani.com/
+#353,Luxury / Fashion,Ralph Lauren,https://www.ralphlauren.com/
+#354,Luxury / Fashion,Tom Ford,https://www.tomford.com/
+#355,Luxury / Fashion,Burberry Beauty,https://us.burberry.com/
+#356,Luxury / Fashion,Acne Studios,https://www.acnestudios.com/
+#357,Luxury / Fashion,Aesop,https://www.aesop.com/
+#358,Luxury / Fashion,Le Labo,https://www.lelabofragrances.com/
+#359,Luxury / Fashion,Byredo,https://www.byredo.com/
+#360,Luxury / Fashion,Diptyque,https://www.diptyqueparis.com/
+#361,Luxury / Fashion,Maison Margiela,https://www.maisonmargiela.com/
+#362,Luxury / Fashion,Jacquemus,https://www.jacquemus.com/
+#363,Luxury / Fashion,Off-White,https://www.off---white.com/
+#364,Luxury / Fashion,Stone Island,https://www.stoneisland.com/
+#365,Luxury / Fashion,Fear of God,https://fearofgod.com/
+#366,Luxury / Fashion,SSENSE,https://www.ssense.com/
+#367,Luxury / Fashion,END.,https://www.endclothing.com/
+#368,Luxury / Fashion,MR PORTER,https://www.mrporter.com/
+#369,Luxury / Fashion,Net-a-Porter,https://www.net-a-porter.com/
+#370,Luxury / Fashion,Farfetch,https://www.farfetch.com/
+#371,Luxury / Fashion,Dover Street Market,https://shop.doverstreetmarket.com/
+#372,Luxury / Fashion,A-Cold-Wall,https://www.a-cold-wall.com/
+#373,Luxury / Fashion,Gentle Monster,https://www.gentlemonster.com/
+#374,Luxury / Fashion,Oliver Peoples,https://www.oliverpeoples.com/
+#375,Luxury / Fashion,Rolex,https://www.rolex.com/
+#376,Luxury / Fashion,Tiffany & Co.,https://www.tiffany.com/
+#377,Luxury / Fashion,Cartier,https://www.cartier.com/
+#378,Luxury / Fashion,Bulgari,https://www.bulgari.com/
+#379,Luxury / Fashion,Van Cleef & Arpels,https://www.vancleefarpels.com/
+#380,Luxury / Fashion,Maison Kitsune,https://maisonkitsune.com/
+#381,Luxury / Fashion,COS,https://www.cos.com/
+#382,Luxury / Fashion,Arket,https://www.arket.com/
+#383,Luxury / Fashion,Uniqlo,https://www.uniqlo.com/
+#384,Luxury / Fashion,Muji,https://www.muji.com/
+#385,Automotive / Product,Porsche,https://www.porsche.com/
+#386,Automotive / Product,Mercedes-Benz,https://www.mercedes-benz.com/
+#387,Automotive / Product,Lamborghini,https://www.lamborghini.com/
+#388,Automotive / Product,Ferrari,https://www.ferrari.com/
+#389,Automotive / Product,BMW,https://www.bmw.com/
+#390,Automotive / Product,Audi,https://www.audi.com/
+#391,Automotive / Product,Volvo,https://www.volvocars.com/
+#392,Automotive / Product,Polestar,https://www.polestar.com/
+#393,Automotive / Product,Tesla,https://www.tesla.com/
+#394,Automotive / Product,Rivian,https://rivian.com/
+#395,Automotive / Product,Lucid,https://lucidmotors.com/
+#396,Automotive / Product,Genesis,https://www.genesis.com/
+#397,Automotive / Product,Range Rover,https://www.rangerover.com/
+#398,Automotive / Product,Land Rover,https://www.landrover.com/
+#399,Automotive / Product,Cadillac,https://www.cadillac.com/
+#400,Automotive / Product,Ford,https://www.ford.com/
+#401,Automotive / Product,Toyota,https://www.toyota.com/
+#402,Automotive / Product,Honda,https://www.honda.com/
+#403,Automotive / Product,Nissan,https://www.nissanusa.com/
+#404,Automotive / Product,Lexus,https://www.lexus.com/
+#405,Automotive / Product,Bugatti,https://www.bugatti.com/
+#406,Automotive / Product,McLaren,https://www.mclaren.com/
+#407,Automotive / Product,Aston Martin,https://www.astonmartin.com/
+#408,Automotive / Product,Koenigsegg,https://www.koenigsegg.com/
+#409,Automotive / Product,Pagani,https://www.pagani.com/
+#410,Automotive / Product,Dyson,https://www.dyson.com/
+#411,Automotive / Product,Nothing,https://nothing.tech/
+#412,Automotive / Product,Sonos,https://www.sonos.com/
+#413,Automotive / Product,Bose,https://www.bose.com/
+#414,Automotive / Product,Bang & Olufsen,https://www.bang-olufsen.com/
+#415,Automotive / Product,Teenage Engineering,https://teenage.engineering/
+#416,Automotive / Product,Framework,https://frame.work/
+#417,Automotive / Product,Framework Computer,https://frame.work/
+#418,Automotive / Product,Oura,https://ouraring.com/
+#419,Automotive / Product,Whoop,https://www.whoop.com/
+#420,Automotive / Product,Garmin,https://www.garmin.com/
+#421,Automotive / Product,GoPro,https://gopro.com/
+#422,Automotive / Product,DJI,https://www.dji.com/
+#423,Automotive / Product,Peloton,https://www.onepeloton.com/
+#424,Automotive / Product,Eight Sleep,https://www.eightsleep.com/
+#425,Automotive / Product,Nothing Phone,https://nothing.tech/pages/phone
+#426,Automotive / Product,PlayStation,https://www.playstation.com/
+#427,Automotive / Product,Xbox,https://www.xbox.com/
+#428,Automotive / Product,Nintendo,https://www.nintendo.com/
+#429,Automotive / Product,Valve,https://www.valvesoftware.com/
+#430,Automotive / Product,Steam,https://store.steampowered.com/
+#431,E-commerce / Consumer,Shopify,https://www.shopify.com/
+#432,E-commerce / Consumer,Etsy,https://www.etsy.com/
+#433,E-commerce / Consumer,Amazon,https://www.amazon.com/
+#434,E-commerce / Consumer,Nike Store,https://www.nike.com/
+#435,E-commerce / Consumer,Apple Store,https://www.apple.com/store/
+#436,E-commerce / Consumer,Samsung,https://www.samsung.com/
+#437,E-commerce / Consumer,Google Store,https://store.google.com/
+#438,E-commerce / Consumer,IKEA,https://www.ikea.com/
+#439,E-commerce / Consumer,Patagonia,https://www.patagonia.com/
+#440,E-commerce / Consumer,Allbirds,https://www.allbirds.com/
+#441,E-commerce / Consumer,Glossier,https://www.glossier.com/
+#442,E-commerce / Consumer,Warby Parker,https://www.warbyparker.com/
+#443,E-commerce / Consumer,Casper,https://casper.com/
+#444,E-commerce / Consumer,Away,https://www.awaytravel.com/
+#445,E-commerce / Consumer,Ritual,https://ritual.com/
+#446,E-commerce / Consumer,Hims,https://www.hims.com/
+#447,E-commerce / Consumer,Hers,https://www.forhers.com/
+#448,E-commerce / Consumer,Harry's,https://www.harrys.com/
+#449,E-commerce / Consumer,Dollar Shave Club,https://www.dollarshaveclub.com/
+#450,E-commerce / Consumer,Mejuri,https://mejuri.com/
+#451,E-commerce / Consumer,Outdoor Voices,https://www.outdoorvoices.com/
+#452,E-commerce / Consumer,Everlane,https://www.everlane.com/
+#453,E-commerce / Consumer,Reformation,https://www.thereformation.com/
+#454,E-commerce / Consumer,Lululemon,https://shop.lululemon.com/
+#455,E-commerce / Consumer,On,https://www.on.com/
+#456,E-commerce / Consumer,Veja,https://www.veja-store.com/
+#457,E-commerce / Consumer,Kith,https://kith.com/
+#458,E-commerce / Consumer,Aime Leon Dore,https://www.aimeleondore.com/
+#459,E-commerce / Consumer,Supreme,https://supreme.com/
+#460,E-commerce / Consumer,New Balance,https://www.newbalance.com/
+#461,E-commerce / Consumer,Adidas Originals,https://www.adidas.com/us/originals
+#462,E-commerce / Consumer,The North Face,https://www.thenorthface.com/
+#463,E-commerce / Consumer,Arc'teryx,https://arcteryx.com/
+#464,E-commerce / Consumer,REI,https://www.rei.com/
+#465,E-commerce / Consumer,Razer,https://www.razer.com/
+#466,E-commerce / Consumer,Logitech,https://www.logitech.com/
+#467,E-commerce / Consumer,Elgato,https://www.elgato.com/
+#468,E-commerce / Consumer,Bose Store,https://www.bose.com/
+#469,E-commerce / Consumer,Nespresso,https://www.nespresso.com/
+#470,E-commerce / Consumer,Blue Bottle Coffee,https://bluebottlecoffee.com/
+#471,E-commerce / Consumer,Oatly,https://www.oatly.com/
+#472,E-commerce / Consumer,Liquid Death,https://liquiddeath.com/
+#473,E-commerce / Consumer,Feastables,https://feastables.com/
+#474,E-commerce / Consumer,Olipop,https://drinkolipop.com/
+#475,E-commerce / Consumer,Poppi,https://drinkpoppi.com/
+#476,E-commerce / Consumer,Magic Spoon,https://magicspoon.com/
+#477,E-commerce / Consumer,Rhode,https://www.rhodeskin.com/
+#478,E-commerce / Consumer,Rare Beauty,https://www.rarebeauty.com/
+#479,E-commerce / Consumer,Fenty Beauty,https://fentybeauty.com/
+#480,E-commerce / Consumer,Drunk Elephant,https://www.drunkelephant.com/
+#481,Editorial / Storytelling / Data,The Pudding,https://pudding.cool/
+#482,Editorial / Storytelling / Data,NYTimes,https://www.nytimes.com/
+#483,Editorial / Storytelling / Data,National Geographic,https://www.nationalgeographic.com/
+#484,Editorial / Storytelling / Data,Google Arts & Culture,https://artsandculture.google.com/
+#485,Editorial / Storytelling / Data,Rijksmuseum,https://www.rijksmuseum.nl/
+#486,Editorial / Storytelling / Data,NASA,https://www.nasa.gov/
+#487,Editorial / Storytelling / Data,SpaceX,https://www.spacex.com/
+#488,Editorial / Storytelling / Data,Spotify,https://www.spotify.com/
+#489,Editorial / Storytelling / Data,Netflix,https://www.netflix.com/
+#490,Editorial / Storytelling / Data,A24,https://a24films.com/
+#491,Editorial / Storytelling / Data,The New York Times Magazine,https://www.nytimes.com/section/magazine
+#492,Editorial / Storytelling / Data,The Atlantic,https://www.theatlantic.com/
+#493,Editorial / Storytelling / Data,Vox,https://www.vox.com/
+#494,Editorial / Storytelling / Data,The Guardian,https://www.theguardian.com/
+#495,Editorial / Storytelling / Data,Washington Post,https://www.washingtonpost.com/
+#496,Editorial / Storytelling / Data,Reuters Graphics,https://www.reuters.com/graphics/
+#497,Editorial / Storytelling / Data,Bloomberg Graphics,https://www.bloomberg.com/graphics/
+#498,Editorial / Storytelling / Data,The Economist,https://www.economist.com/
+#499,Editorial / Storytelling / Data,ProPublica,https://www.propublica.org/
+#500,Editorial / Storytelling / Data,FiveThirtyEight,https://fivethirtyeight.com/

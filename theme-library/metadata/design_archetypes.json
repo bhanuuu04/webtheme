@@ -1,0 +1,30 @@
+{
+  "total_themes": 500,
+  "numbering_range": "#001 - #500",
+  "categories": {
+    "SaaS / Product": 69,
+    "AI": 45,
+    "Developer / Infrastructure": 50,
+    "Fintech / Finance": 51,
+    "3D / WebGL / Immersive": 39,
+    "Motion / Interaction": 37,
+    "Creative Agencies / Studios": 43,
+    "Luxury / Fashion": 50,
+    "Automotive / Product": 46,
+    "E-commerce / Consumer": 50,
+    "Editorial / Storytelling / Data": 20
+  },
+  "archetypes": [
+    "SaaS / Product",
+    "AI",
+    "Developer / Infrastructure",
+    "Fintech / Finance",
+    "3D / WebGL / Immersive",
+    "Motion / Interaction",
+    "Creative Agencies / Studios",
+    "Luxury / Fashion",
+    "Automotive / Product",
+    "E-commerce / Consumer",
+    "Editorial / Storytelling / Data"
+  ]
+}

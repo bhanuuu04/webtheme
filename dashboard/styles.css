@@ -1,0 +1,188 @@
+/* THEME #014 (Arc) CLEAN MINIMAL ENTERPRISE DESIGN SYSTEM STYLESHEET */
+/* Strict Isolation: Canvas #ffffff, Surface #f9fafb, Card #ffffff, Accent #0070f3, Border #e5e7eb, Text #111827 / #6b7280 */
+
+:root {
+  --arc-bg: #ffffff;
+  --arc-surface: #f9fafb;
+  --arc-card: #ffffff;
+  --arc-card-hover: #ffffff;
+  --arc-border: #e5e7eb;
+  --arc-border-subtle: #f3f4f6;
+  --arc-border-hover: rgba(0, 112, 243, 0.4);
+  --arc-accent: #0070f3;
+  --arc-accent-hover: #0060df;
+  --arc-accent-glow: rgba(0, 112, 243, 0.12);
+  --arc-text: #111827;
+  --arc-text-secondary: #4b5563;
+  --arc-text-muted: #6b7280;
+  --arc-radius-sm: 6px;
+  --arc-radius-md: 8px;
+  --arc-radius-lg: 12px;
+}
+
+/* Custom Minimal Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f9fafb;
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #e5e7eb;
+  border-radius: 9999px;
+  border: 1px solid #ffffff;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #d1d5db;
+}
+
+/* Card System: Clean Minimal Enterprise Cards */
+.theme-card {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  background: var(--arc-card);
+  border: 1px solid var(--arc-border);
+  border-radius: var(--arc-radius-lg);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.theme-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--arc-border-hover);
+  box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.08), 0 0 16px -2px var(--arc-accent-glow);
+}
+
+/* Screenshot Preview Container */
+.screenshot-container {
+  position: relative;
+  height: 180px;
+  background: #f3f4f6;
+  overflow: hidden;
+  border-bottom: 1px solid var(--arc-border);
+}
+
+.screenshot-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.theme-card:hover .screenshot-img {
+  transform: scale(1.03);
+}
+
+/* 6-8px Pills & Buttons */
+.arc-btn-primary {
+  background-color: var(--arc-accent);
+  color: #ffffff;
+  border-radius: var(--arc-radius-md);
+  font-weight: 600;
+  transition: all 0.15s ease;
+  box-shadow: 0 2px 8px var(--arc-accent-glow);
+}
+
+.arc-btn-primary:hover {
+  background-color: var(--arc-accent-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px var(--arc-accent-glow);
+}
+
+.arc-btn-secondary {
+  background: #ffffff;
+  border: 1px solid var(--arc-border);
+  color: var(--arc-text-secondary);
+  border-radius: var(--arc-radius-md);
+  transition: all 0.15s ease;
+}
+
+.arc-btn-secondary:hover {
+  background: #f9fafb;
+  color: var(--arc-text);
+  border-color: #d1d5db;
+}
+
+/* Tag buttons (6-8px pills) */
+.tag-badge {
+  transition: all 0.15s ease;
+  border-radius: var(--arc-radius-md);
+  background: #ffffff;
+  border: 1px solid var(--arc-border);
+  color: var(--arc-text-secondary);
+}
+
+.tag-badge:hover {
+  border-color: #d1d5db;
+  color: var(--arc-text);
+  background: #f9fafb;
+}
+
+.tag-badge.active {
+  background-color: rgba(0, 112, 243, 0.08) !important;
+  color: #0070f3 !important;
+  border-color: rgba(0, 112, 243, 0.4) !important;
+  font-weight: 600;
+}
+
+/* Tone buttons */
+.tone-btn {
+  border-radius: var(--arc-radius-md);
+  transition: all 0.15s ease;
+  background: #ffffff;
+  border: 1px solid var(--arc-border);
+  color: var(--arc-text-secondary);
+}
+
+.tone-btn:hover {
+  border-color: #d1d5db;
+  color: var(--arc-text);
+}
+
+.tone-btn.active {
+  background-color: rgba(0, 112, 243, 0.08) !important;
+  color: #0070f3 !important;
+  border-color: rgba(0, 112, 243, 0.4) !important;
+  font-weight: 600;
+}
+
+/* List view mode */
+.list-view-mode {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+}
+
+.list-view-mode .theme-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.list-view-mode .theme-card .screenshot-container {
+  width: 220px;
+  height: 115px;
+  flex-shrink: 0;
+  border-bottom: none;
+  border-right: 1px solid var(--arc-border);
+}
+
+.list-view-mode .theme-card .card-body {
+  padding: 16px 20px;
+  flex: 1;
+}
+
+/* Modal animation states */
+#themeModal.open, #compareModal.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#themeModal.open #modalContent {
+  transform: translateX(0);
+}
